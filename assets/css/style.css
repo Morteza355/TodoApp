@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eff1f2;
+}
+
+.date {
+  font-size: 0.8rem;
+}
+
+.todos {
+  min-height: 60vh;
+}
+
+@keyframes todoOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.opacity-anim {
+  animation: todoOpacity 0.3s linear;
+}
